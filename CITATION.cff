@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article and this release."
+title: "Res-TECNet: MATLAB code for storm-time prediction of global ionospheric TEC maps"
+type: software
+authors:
+  - family-names: "Besdok"
+    given-names: "Erkan"
+    email: "ebesdok@erciyes.edu.tr"
+    affiliation: "Erciyes University, Faculty of Engineering, Department of Geomatics Engineering, Kayseri, Türkiye"
+  - family-names: "Civicioglu"
+    given-names: "Pinar"
+    email: "civici@erciyes.edu.tr"
+    affiliation: "Erciyes University, Faculty of Aeronautics and Astronautics, Kayseri, Türkiye"
+repository-code: "https://github.com/BESDOK/ResTECNet"
+# version, date-released and doi are filled in after the release is published (see RELEASE_ASSETS.md)
