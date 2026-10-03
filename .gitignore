@@ -1,0 +1,19 @@
+# credentials -- never commit
+earthdata_netrc
+_netrc
+.netrc
+ck.txt
+# downloaded or generated data (large; see RELEASE_ASSETS.md)
+*_cache/
+rinex_cache/
+index_cache/
+stations/
+results/
+*.mat
+*.jpg
+*.png
+*.log
+log_*.txt
+STATIONS_DONE.txt
+stations_missing_months.csv
+Rint_summary.txt
