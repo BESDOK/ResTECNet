@@ -18,8 +18,7 @@ reproduces them up to the run-to-run variation of the network training.
 The state of the code that belongs to a manuscript version is identified by a git tag and
 its commit hash (`git rev-parse <tag>^{commit}`), by the GitHub release, and by the Zenodo
 DOI of that release (see `CITATION.cff`). Large artefacts (trained weights, processed station
-files) are listed in `RELEASE_ASSETS.md` and archived with the release. `CHECKSUMS.sha256`
-lists the SHA-256 of every file of the release (`sha256sum -c CHECKSUMS.sha256`).
+files) are listed in `RELEASE_ASSETS.md` and archived with the release. Integrity is covered by the git commit hash and by the SHA-256 checksums that Zenodo records for every archived file.
 
 This code base implements **every experiment of the revised manuscript**, including the
 data-download chain. Run `verifyRevisionCoverage` first (Part A checks the
